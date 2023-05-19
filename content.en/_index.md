@@ -25,7 +25,9 @@ Go ahead and view the notes on the left side
 
 ## **_We need your help!_**
 
-### This is a community project and **any** help is giving back.
+{{< hint info >}}
+This is a community project and **any** help is giving back.
+{{< /hint >}}
 
 - You can easily help by contributing:
 
