@@ -8,6 +8,7 @@ type: docs
 ## Completely New?
 
 These are the steps you will need to take to become certifed with FAA Part 107
+[Offical Steps](https://www.faa.gov/uas/commercial_operators/become_a_drone_pilot)
 
 1. Obtain FAA Tracking Number (FTN): **C1234567**
    1. [Offical FAA Website](https://iacra.faa.gov/)
@@ -23,13 +24,13 @@ These are the steps you will need to take to become certifed with FAA Part 107
 
 ## Already studying?
 
-Go ahead and view the notes on the left side
+Go ahead and view the notes on the ⬅ left side
 <--->
 
 ## Study Materials
 
 - [ASA 2023 Test Prep](https://www.amazon.com/2023-Remote-Pilot-Test-Prep/dp/164425249X)
-  `
+
   {{< /columns >}}
 
 ## **_We need your help!_**
