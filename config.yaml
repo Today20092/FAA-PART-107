@@ -35,13 +35,16 @@ languages:
 # Use either Before or After for where you want it.
 menu:
   # before:
-  # after:
-  #   - name: 'Github'
-  #     url: 'https://github.com/alex-shpak/hugo-book'
-  #     weight: 10
-  #   - name: 'Hugo Themes'
-  #     url: 'https://themes.gohugo.io/hugo-book/'
-  #     weight: 20
+  after:
+    - name: 'FAA Test Supplement Figures'
+      url: 'https://www.faa.gov/training_testing/testing/supplements/media/sport_rec_private_akts.pdf'
+      weight: 10
+    - name: '46 FAA Sample Questions'
+      url: 'https://www.faa.gov/training_testing/testing/test_questions/media/uag_questions.pdf'
+      weight: 20
+    - name: 'FAA Remote Pilot Study Guide'
+      url: 'https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/remote_pilot_study_guide.pdf'
+      weight: 30
 
 params:
   # (Optional, default light) Sets color theme: light, dark or auto.
@@ -55,7 +58,7 @@ params:
 
   # (Optional, default none) Set the path to a logo for the book. If the logo is
   # /static/logo.png then the path would be logo.png
-  # BookLogo: /logo.png
+  # BookLogo: /favicon.png
 
   # (Optional, default none) Set leaf bundle to render as side menu
   # When not specified file structure and weights will be used
