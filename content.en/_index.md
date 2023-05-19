@@ -1,41 +1,28 @@
 ---
-title: Introduction
+title: Welcome
 type: docs
 ---
 
-# Acerbo datus maxime
+# Notes for FAA Part 107
 
-{{< columns >}}
-## Astris ipse furtiva
+## Completely New?
 
-Est in vagis et Pittheus tu arge accipiter regia iram vocatur nurus. Omnes ut
-olivae sensit **arma sorori** deducit, inesset **crudus**, ego vetuere aliis,
-modo arsit? Utinam rapta fiducia valuere litora _adicit cursu_, ad facies
+These are the steps you will need to take to become certifed with FAA Part 107
 
-<--->
+1. Obtain FAA Tracking Number (FTN): **C1234567**
+   1. [Offical FAA Website](https://iacra.faa.gov/)
+2. Schedule test with PSI & pass "Unmanned Aircraft General – Small (UAG)" with 40/60 questions ✅ (or better) ($175)
+   1. [Schedule test here](https://faa.psiexams.com/faa/login)
+3. Complete form FAA Form 8710-13 for "Remote Pilot Certificate"
+   1. [On Offical FAA Website](https://iacra.faa.gov)
+4. Receive email for background check & temporary certificate. 🎓
+5. Receive certificate in mail. 📪
+6. Fly drones commerically 😄
 
-## Suis quot vota
+## Already studying?
 
-Ea _furtique_ risere fratres edidit terrae magis. Colla tam mihi tenebat:
-miseram excita suadent es pecudes iam. Concilio _quam_ velatus posset ait quod
-nunc! Fragosis suae dextra geruntur functus vulgata.
-{{< /columns >}}
+Go ahead and view the notes on the left side
 
+## Would you like to contribute some notes?
 
-## Tempora nisi nunc
-
-Lorem **markdownum** emicat gestu. Cannis sol pressit ducta. **Est** Idaei,
-tremens ausim se tutaeque, illi ulnis hausit, sed, lumina cutem. Quae avis
-sequens!
-
-    var panel = ram_design;
-    if (backup + system) {
-        file.readPoint = network_native;
-        sidebar_engine_device(cell_tftp_raster,
-                dual_login_paper.adf_vci.application_reader_design(
-                graphicsNvramCdma, lpi_footer_snmp, integer_model));
-    }
-
-## Locis suis novi cum suoque decidit eadem
-
-Idmoniae ripis, at aves, ali missa adest, ut _et autem_, et ab?
+Simply use the "**Edit the page**" button & it will take you to the github editor where you can edit theses notes in markdown format.
