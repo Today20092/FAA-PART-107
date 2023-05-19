@@ -4,6 +4,7 @@ baseURL: https://example.com/
 title: FAA Part 107 Notes
 # theme: hugo-book
 
+#Module for theme
 module:
   imports:
     - path: 'github.com/alex-shpak/hugo-book'
