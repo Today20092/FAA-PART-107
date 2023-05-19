@@ -3,3 +3,16 @@
 // @import "plugins/numbered";
 // @import "plugins/scrollbars";
 
+// Define a variable for the new image size
+$new-image-size: 10vw;
+
+// Define a mixin to apply the new size to image tags
+@mixin smaller-images {
+  img {
+    width: $new-image-size;
+    height: auto;
+  }
+}
+
+// Apply the mixin to all image tags
+@include smaller-images;
