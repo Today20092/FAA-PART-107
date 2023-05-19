@@ -187,7 +187,7 @@ Maximum penalty for falsification of records is suspension of revocation of any 
 
 - sUAS cannot fly flaster than 100mph
 - **Cannot** fly higher than _400feet_ about ground level unless flown within a 400 foot radius of a structure and 400feet above that structure
-- ![400](RemotePilotFigure1.1.jpeg)
+<!-- - ![400](RemotePilotFigure1.1.jpeg) -->
 - Minimum visibility must be no less than 3 statue miles
 - Minimum distance from clouds must be no lses than 500 feet below a cloud and 2,000 feet horizontally
 
