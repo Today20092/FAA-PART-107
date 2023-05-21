@@ -137,6 +137,7 @@ weight: 3
 - (ASOS) Automated Surface Observing System - primary weather observing
   - processes weather, minute by minute, computer transmitted
 - (AWOS) - marked by (**AUTO**)
+- ![Metar Report Example](metar.png)
 - METAR is standard international format - scheduled
   - _METAR KGG 161753Z AUTO 14021G26KT 3/4SM +TSRA BR BKN008 OVC012CB 18/17 A2970 RMK PRESFR_
     - TYPE : **METAR** OR **SPECI**
