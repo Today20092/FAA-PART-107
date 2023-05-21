@@ -171,6 +171,11 @@ weight: 3
       - PRES**FR** - FALLING RAPIDLY
     - Zulu time
     - Remarks : **RMK** comments
+{{< hint info >}}
+You can copy and paste a Metar report into ChatGPT and tell it to describe each section of the Metar Report.
+{{< /hint >}}
+  
+
 - TAF - another weather report usually given 4 times a day (0000Z 0600Z 1200Z 1800Z)
   - _TAF KPIR 111130Z 1112/1212 15012KT P6SM BKN090 TEMPO 1112/1114 5SM BR FM1500 16015G25KT P6SM SCT040 BKN250 FM120000 14012KT P6SM BKN080 OVC150 PROB30 1200/1204 3SM TSRA BKN030CB FM120400 1408KT P6SM SCT040 OVC080 TEMPO 1204/1208 3SM TSRA OVC030CB_
   - Type of report : **TAF** or **TAF AMD**
