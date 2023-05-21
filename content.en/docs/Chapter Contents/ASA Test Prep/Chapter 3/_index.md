@@ -139,80 +139,49 @@ weight: 3
 - (AWOS) - marked by (**AUTO**)
 - ![Metar Report Example](metar.png)
 - METAR is standard international format - scheduled
-  - _METAR KGG 161753Z AUTO 14021G26KT 3/4SM +TSRA BR BKN008 OVC012CB 18/17 A2970 RMK PRESFR_
-    - TYPE : **METAR** OR **SPECI**
-    - STATION Identifier : **KGG**
-    - DATE & TIME (SIX DIGITS) : **161753Z**
-      - 16 = Date
-      - 1753 = Time
-      - Z = Zulu Time
-    - Modifier : **AUTO** or **COR** (Corrected)
-    - Wind : **14021KT** (five digits or 6 if greater than 99 knots)
-      - 140 = Direction true win is blowing in tens of degree
-      - or **VBR** = variable
-      - **G** for gusting
-      - **V** to separate extreme wind direction
-    - Visibility : **3/4SM**
-      - **R/** = runway visibility
-    - Weather : qualifiers & phenomena : **+TSRA**
-      - - = HEAY
-      - TS = THUNDERSTORMS
-      - RA = RAIN
-    - Sky Condition : amount, height, & type in that order : height is in hundreds of feet
-      - **BKN008** : Broken 800 feet
-      - **OVC012CB** : Overcast 1,200 feet
-      - VV003 : Vertically visible 300 feet
-      - ![](https://i.imgur.com/IlNjRQ7.jpg)
-    - Temperature & Dew Point in order : **18/17**
-      - In Celsius, M if minus (M18/M17)
-    - Altimeter settings : **A2970**
-      - inches of mercury (Hg) 4 digit number always A infront
-      - PRES**RR** - RISING RAPIDLY
-      - PRES**FR** - FALLING RAPIDLY
-    - Zulu time
-    - Remarks : **RMK** comments
-{{< hint info >}}
-You can copy and paste a Metar report into ChatGPT and tell it to describe each section of the Metar Report.
-{{< /hint >}}
+  - _METAR KGG 161753Z AUTO 14021G26KT 3/4SM +TSRA BR BKN008 OVC012CB 18/17 A2970 RMK PRESFR_ - TYPE : **METAR** OR **SPECI** - STATION Identifier : **KGG** - DATE & TIME (SIX DIGITS) : **161753Z** - 16 = Date - 1753 = Time - Z = Zulu Time - Modifier : **AUTO** or **COR** (Corrected) - Wind : **14021KT** (five digits or 6 if greater than 99 knots) - 140 = Direction true win is blowing in tens of degree - or **VBR** = variable - **G** for gusting - **V** to separate extreme wind direction - Visibility : **3/4SM** - **R/** = runway visibility - Weather : qualifiers & phenomena : **+TSRA** - - = HEAY - TS = THUNDERSTORMS - RA = RAIN - Sky Condition : amount, height, & type in that order : height is in hundreds of feet - **BKN008** : Broken 800 feet - **OVC012CB** : Overcast 1,200 feet - VV003 : Vertically visible 300 feet - ![](https://i.imgur.com/IlNjRQ7.jpg) - Temperature & Dew Point in order : **18/17** - In Celsius, M if minus (M18/M17) - Altimeter settings : **A2970** - inches of mercury (Hg) 4 digit number always A infront - PRES**RR** - RISING RAPIDLY - PRES**FR** - FALLING RAPIDLY - Zulu time - Remarks : **RMK** comments
+    {{< hint info >}}
+    You can copy and paste a Metar report into ChatGPT and tell it to describe each section of the Metar Report.
+    {{< /hint >}}
 
 {{< details "ChatGPT Metar Report" >}}
 The given text is a METAR report, which is a standard format used for reporting weather observations at airports. Here's a breakdown of each section:
 
-    KTPA: This is the ICAO station code for the airport where the observation was taken. In this case, it refers to Tampa International Airport.
+KTPA: This is the ICAO station code for the airport where the observation was taken. In this case, it refers to Tampa International Airport.
 
-    202353Z: This section provides the date and time of the observation. "20" represents the day of the month (20th), "2353Z" indicates the time in Coordinated Universal Time (UTC) when the observation was made, which is 23:53 UTC.
+202353Z: This section provides the date and time of the observation. "20" represents the day of the month (20th), "2353Z" indicates the time in Coordinated Universal Time (UTC) when the observation was made, which is 23:53 UTC.
 
-    VRBO3KT: This part describes the wind conditions. "VRB" means the wind direction is variable and is not predominantly coming from a specific direction. "03KT" represents the wind speed, which is 3 knots.
+VRBO3KT: This part describes the wind conditions. "VRB" means the wind direction is variable and is not predominantly coming from a specific direction. "03KT" represents the wind speed, which is 3 knots.
 
-    10SM: This section denotes the visibility, indicating that the visibility is 10 statute miles, which is the maximum value reported.
+10SM: This section denotes the visibility, indicating that the visibility is 10 statute miles, which is the maximum value reported.
 
-    SCTO50CB: This segment provides information about cloud coverage and types. "SCT" stands for scattered clouds. "O50CB" means there are towering cumulonimbus clouds with their bases at or below 50,000 feet above ground level (AGL).
+SCTO50CB: This segment provides information about cloud coverage and types. "SCT" stands for scattered clouds. "O50CB" means there are towering cumulonimbus clouds with their bases at or below 50,000 feet above ground level (AGL).
 
-    SCT100: This part indicates the presence of scattered clouds at an altitude of 10,000 feet above ground level (AGL).
+SCT100: This part indicates the presence of scattered clouds at an altitude of 10,000 feet above ground level (AGL).
 
-    BKN250: This section represents broken clouds at an altitude of 25,000 feet above ground level (AGL).
+BKN250: This section represents broken clouds at an altitude of 25,000 feet above ground level (AGL).
 
-    28/22: This segment provides the temperature and dew point information. "28" refers to the air temperature in degrees Celsius, and "22" represents the dew point temperature in degrees Celsius.
+28/22: This segment provides the temperature and dew point information. "28" refers to the air temperature in degrees Celsius, and "22" represents the dew point temperature in degrees Celsius.
 
-    A2996: This part indicates the atmospheric pressure at sea level, expressed in inches of mercury (inHg). In this case, the pressure is 29.96 inHg.
+A2996: This part indicates the atmospheric pressure at sea level, expressed in inches of mercury (inHg). In this case, the pressure is 29.96 inHg.
 
-    RMK: This section indicates remarks or additional information following the observation.
+RMK: This section indicates remarks or additional information following the observation.
 
-    AO2: This is an automated weather station with a precipitation discriminator.
+AO2: This is an automated weather station with a precipitation discriminator.
 
-    LTG DSNT NE AND E: This remark signifies that lightning is observed distant to the northeast and east of the observation site.
+LTG DSNT NE AND E: This remark signifies that lightning is observed distant to the northeast and east of the observation site.
 
-    SLP144: This segment provides the sea-level pressure, which is 1014.4 millibars (hPa).
+SLP144: This segment provides the sea-level pressure, which is 1014.4 millibars (hPa).
 
-    CB NE MOV S: This remark indicates cumulonimbus clouds are present in the northeast and moving south.
+CB NE MOV S: This remark indicates cumulonimbus clouds are present in the northeast and moving south.
 
-    CB DSNT N-S: This remark indicates cumulonimbus clouds are present in the distance from the north to the south.
+CB DSNT N-S: This remark indicates cumulonimbus clouds are present in the distance from the north to the south.
 
-    TCU DSNT W: This remark denotes towering cumulus clouds are present in the distance towards the west.
+TCU DSNT W: This remark denotes towering cumulus clouds are present in the distance towards the west.
 
-    60072 T02780217 10344 20244 53002: These are additional weather observations, including wind direction and speed, temperature, dew point, and atmospheric pressure.
+60072 T02780217 10344 20244 53002: These are additional weather observations, including wind direction and speed, temperature, dew point, and atmospheric pressure.
 
-    $: The dollar sign represents the end of the METAR report.
+$: The dollar sign represents the end of the METAR report.
 
 Overall, the METAR report provides detailed information about the weather conditions at the specified airport at the time of the observation.
 {{< /details >}}
