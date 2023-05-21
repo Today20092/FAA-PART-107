@@ -174,7 +174,48 @@ weight: 3
 {{< hint info >}}
 You can copy and paste a Metar report into ChatGPT and tell it to describe each section of the Metar Report.
 {{< /hint >}}
-  
+
+{{< details "ChatGPT Metar Report" >}}
+The given text is a METAR report, which is a standard format used for reporting weather observations at airports. Here's a breakdown of each section:
+
+    KTPA: This is the ICAO station code for the airport where the observation was taken. In this case, it refers to Tampa International Airport.
+
+    202353Z: This section provides the date and time of the observation. "20" represents the day of the month (20th), "2353Z" indicates the time in Coordinated Universal Time (UTC) when the observation was made, which is 23:53 UTC.
+
+    VRBO3KT: This part describes the wind conditions. "VRB" means the wind direction is variable and is not predominantly coming from a specific direction. "03KT" represents the wind speed, which is 3 knots.
+
+    10SM: This section denotes the visibility, indicating that the visibility is 10 statute miles, which is the maximum value reported.
+
+    SCTO50CB: This segment provides information about cloud coverage and types. "SCT" stands for scattered clouds. "O50CB" means there are towering cumulonimbus clouds with their bases at or below 50,000 feet above ground level (AGL).
+
+    SCT100: This part indicates the presence of scattered clouds at an altitude of 10,000 feet above ground level (AGL).
+
+    BKN250: This section represents broken clouds at an altitude of 25,000 feet above ground level (AGL).
+
+    28/22: This segment provides the temperature and dew point information. "28" refers to the air temperature in degrees Celsius, and "22" represents the dew point temperature in degrees Celsius.
+
+    A2996: This part indicates the atmospheric pressure at sea level, expressed in inches of mercury (inHg). In this case, the pressure is 29.96 inHg.
+
+    RMK: This section indicates remarks or additional information following the observation.
+
+    AO2: This is an automated weather station with a precipitation discriminator.
+
+    LTG DSNT NE AND E: This remark signifies that lightning is observed distant to the northeast and east of the observation site.
+
+    SLP144: This segment provides the sea-level pressure, which is 1014.4 millibars (hPa).
+
+    CB NE MOV S: This remark indicates cumulonimbus clouds are present in the northeast and moving south.
+
+    CB DSNT N-S: This remark indicates cumulonimbus clouds are present in the distance from the north to the south.
+
+    TCU DSNT W: This remark denotes towering cumulus clouds are present in the distance towards the west.
+
+    60072 T02780217 10344 20244 53002: These are additional weather observations, including wind direction and speed, temperature, dew point, and atmospheric pressure.
+
+    $: The dollar sign represents the end of the METAR report.
+
+Overall, the METAR report provides detailed information about the weather conditions at the specified airport at the time of the observation.
+{{< /details >}}
 
 - TAF - another weather report usually given 4 times a day (0000Z 0600Z 1200Z 1800Z)
   - _TAF KPIR 111130Z 1112/1212 15012KT P6SM BKN090 TEMPO 1112/1114 5SM BR FM1500 16015G25KT P6SM SCT040 BKN250 FM120000 14012KT P6SM BKN080 OVC150 PROB30 1200/1204 3SM TSRA BKN030CB FM120400 1408KT P6SM SCT040 OVC080 TEMPO 1204/1208 3SM TSRA OVC030CB_
