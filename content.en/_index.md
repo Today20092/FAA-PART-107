@@ -33,7 +33,7 @@ Go ahead and view the notes on the ⬅ left side
 
   {{< /columns >}}
 
-## **_We need your help!_**
+## **_How can you help?!_**
 
 {{< hint info >}}
 This is a community project and **any** help is giving back.
